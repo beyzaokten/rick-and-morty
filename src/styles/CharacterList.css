@@ -1,0 +1,29 @@
+.character-list-container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6) url('../assets/background.png');
+    background-size: cover;
+    border-radius: 10px;
+  }
+  
+  .character-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .character-card {
+    background: #222;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .character-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
